@@ -1,0 +1,179 @@
+/* Your styles here */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+body {
+    color: #393d41;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+#logo {
+    width: 200px;
+}
+
+header {
+    background-color: black;
+    padding: 2rem;
+    text-align: left;
+}
+
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 2rem 2rem 1.5rem 2rem;
+}
+
+.banner div {
+    width: 60%;
+    margin: 6em auto;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    margin-bottom: 0.3em;
+}
+
+.banner p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.banner button {
+    border: none;
+    background-color: #f04c2f;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 4em 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.hero h2 {
+    font-size: 1em;
+    padding-bottom: 0.2em;
+}
+
+.hero p {
+    padding-bottom: 1.1em;
+}
+
+#hero-image, #bullet-points {
+    width: 48%;
+    display: inline-block;
+}
+
+#hero-image {
+    vertical-align: top;
+}
+
+#hero-image img{
+    border-radius: 50%;
+    width: 90%;
+}
+
+.testimonial {
+    background-color: #e22d0e;
+    text-align: center;
+    color: white;
+    padding: 2em 2em;
+}
+
+.testimonial h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+}
+
+.testimonial cite {
+    font-style: normal;
+    font-size: 1.3em;
+}
+
+#ceo {
+    font-size: 0.7em;
+}
+
+aside {
+    padding: 2em 1%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card {
+    text-align: center;
+    width: 32%;
+    border: 1px solid #dee1e3;
+    padding-bottom: 2em;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+.card h4 {
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+}
+
+.card p {
+    margin: 0 1.2em;
+}
+
+.card img {
+    width: 100%;
+    padding-bottom: 1.2em;
+    height: 200px;
+}
+
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    padding: 2em;
+}
+
+footer h2 {
+    color: white;
+    font-size: 2em;
+    padding-bottom: 0.8em;
+}
+
+footer p, a:link, a:visited {
+    color: #c8e7f0;
+}
+
+footer span {
+    color: white;
+}
+
+footer hr {
+    width: 50%;
+    margin: 2em auto;
+}
+
